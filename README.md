@@ -1,0 +1,27 @@
+# Task 02: Descriptive Statistics with Pure Python, Pandas, and Polars
+
+## Project Overview
+
+This project analyzes a 2024 Facebook political advertising dataset using three independent approaches:
+
+1. Pure Python
+2. Pandas
+3. Polars
+
+Each implementation computes dataset-level descriptive statistics and grouped statistics by:
+
+- `page_id`
+- `page_id` and `ad_id`
+
+The grouped numerical results are compared automatically to confirm consistency across all three approaches.
+
+## Dataset
+
+The dataset contains Facebook political advertisements related to the 2024 U.S. presidential election.
+
+The dataset is not included in this repository.
+
+Place the downloaded CSV file at:
+
+```text
+Data/task02_facebook_ads.csv
