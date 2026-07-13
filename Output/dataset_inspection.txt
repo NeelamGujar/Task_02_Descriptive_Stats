@@ -1,0 +1,149 @@
+================================================================================
+TASK 02 DATASET OVERVIEW
+================================================================================
+Dataset: task02_facebook_ads.csv
+Rows: 246,745
+Columns: 41
+
+COLUMN NAMES
+--------------------------------------------------------------------------------
+1. page_id
+2. ad_id
+3. ad_creation_time
+4. bylines
+5. currency
+6. delivery_by_region
+7. demographic_distribution
+8. estimated_audience_size
+9. estimated_impressions
+10. estimated_spend
+11. publisher_platforms
+12. illuminating_scored_message
+13. illuminating_mentions
+14. scam_illuminating
+15. election_integrity_Truth_illuminating
+16. advocacy_msg_type_illuminating
+17. issue_msg_type_illuminating
+18. attack_msg_type_illuminating
+19. image_msg_type_illuminating
+20. cta_msg_type_illuminating
+21. engagement_cta_subtype_illuminating
+22. fundraising_cta_subtype_illuminating
+23. voting_cta_subtype_illuminating
+24. covid_topic_illuminating
+25. economy_topic_illuminating
+26. education_topic_illuminating
+27. environment_topic_illuminating
+28. foreign_policy_topic_illuminating
+29. governance_topic_illuminating
+30. health_topic_illuminating
+31. immigration_topic_illuminating
+32. lgbtq_issues_topic_illuminating
+33. military_topic_illuminating
+34. race_and_ethnicity_topic_illuminating
+35. safety_topic_illuminating
+36. social_and_cultural_topic_illuminating
+37. technology_and_privacy_topic_illuminating
+38. womens_issue_topic_illuminating
+39. incivility_illuminating
+40. freefair_illuminating
+41. fraud_illuminating
+
+DATA TYPES
+--------------------------------------------------------------------------------
+page_id                                        str
+ad_id                                          str
+ad_creation_time                               str
+bylines                                        str
+currency                                       str
+delivery_by_region                             str
+demographic_distribution                       str
+estimated_audience_size                      int64
+estimated_impressions                        int64
+estimated_spend                              int64
+publisher_platforms                            str
+illuminating_scored_message                    str
+illuminating_mentions                          str
+scam_illuminating                            int64
+election_integrity_Truth_illuminating        int64
+advocacy_msg_type_illuminating               int64
+issue_msg_type_illuminating                  int64
+attack_msg_type_illuminating                 int64
+image_msg_type_illuminating                  int64
+cta_msg_type_illuminating                    int64
+engagement_cta_subtype_illuminating          int64
+fundraising_cta_subtype_illuminating         int64
+voting_cta_subtype_illuminating              int64
+covid_topic_illuminating                     int64
+economy_topic_illuminating                   int64
+education_topic_illuminating                 int64
+environment_topic_illuminating               int64
+foreign_policy_topic_illuminating            int64
+governance_topic_illuminating                int64
+health_topic_illuminating                    int64
+immigration_topic_illuminating               int64
+lgbtq_issues_topic_illuminating              int64
+military_topic_illuminating                  int64
+race_and_ethnicity_topic_illuminating        int64
+safety_topic_illuminating                    int64
+social_and_cultural_topic_illuminating       int64
+technology_and_privacy_topic_illuminating    int64
+womens_issue_topic_illuminating              int64
+incivility_illuminating                      int64
+freefair_illuminating                        int64
+fraud_illuminating                           int64
+dtype: object
+
+MISSING VALUES
+--------------------------------------------------------------------------------
+                                           missing_count  missing_percentage
+bylines                                             1009            0.408924
+page_id                                                0            0.000000
+lgbtq_issues_topic_illuminating                        0            0.000000
+covid_topic_illuminating                               0            0.000000
+economy_topic_illuminating                             0            0.000000
+education_topic_illuminating                           0            0.000000
+environment_topic_illuminating                         0            0.000000
+foreign_policy_topic_illuminating                      0            0.000000
+governance_topic_illuminating                          0            0.000000
+health_topic_illuminating                              0            0.000000
+immigration_topic_illuminating                         0            0.000000
+military_topic_illuminating                            0            0.000000
+fundraising_cta_subtype_illuminating                   0            0.000000
+race_and_ethnicity_topic_illuminating                  0            0.000000
+safety_topic_illuminating                              0            0.000000
+social_and_cultural_topic_illuminating                 0            0.000000
+technology_and_privacy_topic_illuminating              0            0.000000
+womens_issue_topic_illuminating                        0            0.000000
+incivility_illuminating                                0            0.000000
+freefair_illuminating                                  0            0.000000
+voting_cta_subtype_illuminating                        0            0.000000
+engagement_cta_subtype_illuminating                    0            0.000000
+ad_id                                                  0            0.000000
+publisher_platforms                                    0            0.000000
+ad_creation_time                                       0            0.000000
+currency                                               0            0.000000
+delivery_by_region                                     0            0.000000
+demographic_distribution                               0            0.000000
+estimated_audience_size                                0            0.000000
+estimated_impressions                                  0            0.000000
+estimated_spend                                        0            0.000000
+illuminating_scored_message                            0            0.000000
+cta_msg_type_illuminating                              0            0.000000
+illuminating_mentions                                  0            0.000000
+scam_illuminating                                      0            0.000000
+election_integrity_Truth_illuminating                  0            0.000000
+advocacy_msg_type_illuminating                         0            0.000000
+issue_msg_type_illuminating                            0            0.000000
+attack_msg_type_illuminating                           0            0.000000
+image_msg_type_illuminating                            0            0.000000
+fraud_illuminating                                     0            0.000000
+
+FIRST FIVE ROWS
+--------------------------------------------------------------------------------
+                                                            page_id                                                             ad_id ad_creation_time                       bylines currency                               delivery_by_region                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               demographic_distribution  estimated_audience_size  estimated_impressions  estimated_spend                                         publisher_platforms                                       illuminating_scored_message          illuminating_mentions  scam_illuminating  election_integrity_Truth_illuminating  advocacy_msg_type_illuminating  issue_msg_type_illuminating  attack_msg_type_illuminating  image_msg_type_illuminating  cta_msg_type_illuminating  engagement_cta_subtype_illuminating  fundraising_cta_subtype_illuminating  voting_cta_subtype_illuminating  covid_topic_illuminating  economy_topic_illuminating  education_topic_illuminating  environment_topic_illuminating  foreign_policy_topic_illuminating  governance_topic_illuminating  health_topic_illuminating  immigration_topic_illuminating  lgbtq_issues_topic_illuminating  military_topic_illuminating  race_and_ethnicity_topic_illuminating  safety_topic_illuminating  social_and_cultural_topic_illuminating  technology_and_privacy_topic_illuminating  womens_issue_topic_illuminating  incivility_illuminating  freefair_illuminating  fraud_illuminating
+0  4ff23a48b53d988df50ddfebb0e442a984ab8f94e874ef9b9cb34394e0c5d230  0ddb025b8544e2d58e6977ad417e742a52522b3e1fc1c9d9b61c57148f8d72fc       2024-10-21  Texas Organizing Project PAC      USD  {'Texas': {'spend': 249, 'impressions': 47499}}  {'female_18-24': {'spend': 28, 'impressions': 5507}, 'male_45-54': {'spend': 14, 'impressions': 2757}, 'male_65+': {'spend': 3, 'impressions': 714}, 'female_65+': {'spend': 3, 'impressions': 725}, 'unknown_55-64': {'spend': 0, 'impressions': 21}, 'male_55-64': {'spend': 7, 'impressions': 1502}, 'female_55-64': {'spend': 7, 'impressions': 1520}, 'unknown_45-54': {'spend': 0, 'impressions': 40}, 'female_45-54': {'spend': 14, 'impressions': 2735}, 'male_18-24': {'spend': 21, 'impressions': 4055}, 'unknown_35-44': {'spend': 0, 'impressions': 69}, 'male_35-44': {'spend': 26, 'impressions': 5149}, 'female_35-44': {'spend': 28, 'impressions': 5528}, 'unknown_25-34': {'spend': 0, 'impressions': 91}, 'male_25-34': {'spend': 41, 'impressions': 7976}, 'female_25-34': {'spend': 46, 'impressions': 8920}, 'unknown_18-24': {'spend': 0, 'impressions': 171}, 'unknown_65+': {'spend': 0, 'impressions': 10}}                    30000                  47499              249                                   ['facebook', 'instagram']  362d68d42e34e070bc9f999033642b8fddfca5404195fc27690c60e0acde1d5b  ['Kamala Harris', 'Tim Walz']                  0                                      0                               1                            1                             0                            0                          0                                    0                                     0                                0                         0                           0                             0                               0                                  0                              0                          0                               0                                0                            0                                      0                          0                                       0                                          0                                0                        0                      0                   0
+1  4ff23a48b53d988df50ddfebb0e442a984ab8f94e874ef9b9cb34394e0c5d230  86229868e6bde3661724fe02da93504bb4fb5da8c2550d7b7cf193c687e89fa6       2024-10-18  Texas Organizing Project PAC      USD   {'Texas': {'spend': 49, 'impressions': 22499}}                {'female_18-24': {'spend': 8, 'impressions': 3904}, 'male_45-54': {'spend': 2, 'impressions': 1129}, 'male_65+': {'spend': 0, 'impressions': 299}, 'female_65+': {'spend': 0, 'impressions': 251}, 'unknown_55-64': {'spend': 0, 'impressions': 5}, 'male_55-64': {'spend': 1, 'impressions': 602}, 'female_55-64': {'spend': 0, 'impressions': 456}, 'unknown_45-54': {'spend': 0, 'impressions': 15}, 'female_45-54': {'spend': 1, 'impressions': 856}, 'male_18-24': {'spend': 6, 'impressions': 2922}, 'unknown_35-44': {'spend': 0, 'impressions': 23}, 'male_35-44': {'spend': 4, 'impressions': 2145}, 'female_35-44': {'spend': 3, 'impressions': 1726}, 'unknown_25-34': {'spend': 0, 'impressions': 31}, 'male_25-34': {'spend': 9, 'impressions': 4323}, 'female_25-34': {'spend': 8, 'impressions': 3744}, 'unknown_18-24': {'spend': 0, 'impressions': 53}, 'unknown_65+': {'spend': 0, 'impressions': 5}}                    75000                  22499               49                                   ['facebook', 'instagram']  dc522d5aa4f91c326d105ec4c482cf4b0c378161a6438a4c604061979c49f0dc  ['Kamala Harris', 'Tim Walz']                  0                                      0                               1                            1                             0                            0                          1                                    0                                     0                                1                         0                           0                             1                               0                                  0                              0                          0                               0                                0                            0                                      0                          0                                       0                                          0                                0                        0                      0                   0
+2  4ff23a48b53d988df50ddfebb0e442a984ab8f94e874ef9b9cb34394e0c5d230  07b5aefc27e872e971f793e49aac38496fa62e484f3928e2b6a2b6e3e08cac8d       2024-10-13  Texas Organizing Project PAC      USD  {'Texas': {'spend': 149, 'impressions': 32499}}         {'female_18-24': {'spend': 26, 'impressions': 5791}, 'male_45-54': {'spend': 7, 'impressions': 1573}, 'male_65+': {'spend': 1, 'impressions': 370}, 'female_65+': {'spend': 1, 'impressions': 298}, 'unknown_55-64': {'spend': 0, 'impressions': 9}, 'male_55-64': {'spend': 3, 'impressions': 790}, 'female_55-64': {'spend': 2, 'impressions': 578}, 'unknown_45-54': {'spend': 0, 'impressions': 21}, 'female_45-54': {'spend': 5, 'impressions': 1191}, 'male_18-24': {'spend': 19, 'impressions': 4285}, 'unknown_35-44': {'spend': 0, 'impressions': 27}, 'male_35-44': {'spend': 13, 'impressions': 2954}, 'female_35-44': {'spend': 11, 'impressions': 2531}, 'unknown_25-34': {'spend': 0, 'impressions': 37}, 'male_25-34': {'spend': 28, 'impressions': 6189}, 'female_25-34': {'spend': 26, 'impressions': 5750}, 'unknown_18-24': {'spend': 0, 'impressions': 87}, 'unknown_65+': {'spend': 0, 'impressions': 9}}                    75000                  32499              149                                   ['facebook', 'instagram']  6dc61896f4a44cf4fdbe564604bbebe33b84d2dbfb8bacc761b345b2879f0804  ['Kamala Harris', 'Tim Walz']                  0                                      0                               1                            1                             0                            0                          0                                    0                                     0                                0                         0                           0                             0                               0                                  0                              0                          0                               0                                0                            0                                      0                          0                                       0                                          0                                0                        0                      0                   0
+3  b9eb7e353e596d5fc99568d4ef77d4b11ced3243537cbd0895dde3195b69b6be  c62978153c04116d88ead49379916855f2cb58bf788631f26f3f1fcb2962ad48       2024-11-02                           NaN      USD                                               {}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     {}                  1000001                    499               49  ['facebook', 'instagram', 'audience_network', 'messenger']  5ffb1d89916e779d01193e726cd8802b1952507da292bcf2c575cd9cc7b44cdb                   ['Tim Walz']                  0                                      0                               0                            1                             0                            0                          0                                    0                                     0                                0                         0                           0                             0                               0                                  0                              0                          0                               0                                0                            0                                      0                          0                                       0                                          0                                0                        0                      0                   0
+4  b9eb7e353e596d5fc99568d4ef77d4b11ced3243537cbd0895dde3195b69b6be  785e91ef18a5794565af03a6df4e7077fe1d915bfb34025019f3d42f43fcf9e8       2024-11-02                           NaN      USD                                               {}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     {}                  1000001                    499               49  ['facebook', 'instagram', 'audience_network', 'messenger']  b7360494f7dd93ffa2320d88b10a5810a5835d15839aebea88846e9c54eef9e0                   ['Tim Walz']                  0                                      0                               0                            1                             1                            1                          0                                    0                                     0                                0                         0                           0                             0                               0                                  0                              0                          0                               0                                0                            0                                      0                          0                                       0                                          0                                0                        0                      0                   0

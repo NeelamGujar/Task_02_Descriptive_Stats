@@ -1,0 +1,454 @@
+======================================================================
+POLARS DATASET OVERVIEW
+======================================================================
+Dataset: task02_facebook_ads.csv
+Total rows: 246,745
+Total columns: 41
+
+COLUMN NAMES
+1. page_id
+2. ad_id
+3. ad_creation_time
+4. bylines
+5. currency
+6. delivery_by_region
+7. demographic_distribution
+8. estimated_audience_size
+9. estimated_impressions
+10. estimated_spend
+11. publisher_platforms
+12. illuminating_scored_message
+13. illuminating_mentions
+14. scam_illuminating
+15. election_integrity_Truth_illuminating
+16. advocacy_msg_type_illuminating
+17. issue_msg_type_illuminating
+18. attack_msg_type_illuminating
+19. image_msg_type_illuminating
+20. cta_msg_type_illuminating
+21. engagement_cta_subtype_illuminating
+22. fundraising_cta_subtype_illuminating
+23. voting_cta_subtype_illuminating
+24. covid_topic_illuminating
+25. economy_topic_illuminating
+26. education_topic_illuminating
+27. environment_topic_illuminating
+28. foreign_policy_topic_illuminating
+29. governance_topic_illuminating
+30. health_topic_illuminating
+31. immigration_topic_illuminating
+32. lgbtq_issues_topic_illuminating
+33. military_topic_illuminating
+34. race_and_ethnicity_topic_illuminating
+35. safety_topic_illuminating
+36. social_and_cultural_topic_illuminating
+37. technology_and_privacy_topic_illuminating
+38. womens_issue_topic_illuminating
+39. incivility_illuminating
+40. freefair_illuminating
+41. fraud_illuminating
+
+======================================================================
+POLARS DATA TYPES
+======================================================================
+page_id                                                         String
+ad_id                                                           String
+ad_creation_time                                                String
+bylines                                                         String
+currency                                                        String
+delivery_by_region                                              String
+demographic_distribution                                        String
+estimated_audience_size                                          Int64
+estimated_impressions                                            Int64
+estimated_spend                                                  Int64
+publisher_platforms                                             String
+illuminating_scored_message                                     String
+illuminating_mentions                                           String
+scam_illuminating                                                Int64
+election_integrity_Truth_illuminating                            Int64
+advocacy_msg_type_illuminating                                   Int64
+issue_msg_type_illuminating                                      Int64
+attack_msg_type_illuminating                                     Int64
+image_msg_type_illuminating                                      Int64
+cta_msg_type_illuminating                                        Int64
+engagement_cta_subtype_illuminating                              Int64
+fundraising_cta_subtype_illuminating                             Int64
+voting_cta_subtype_illuminating                                  Int64
+covid_topic_illuminating                                         Int64
+economy_topic_illuminating                                       Int64
+education_topic_illuminating                                     Int64
+environment_topic_illuminating                                   Int64
+foreign_policy_topic_illuminating                                Int64
+governance_topic_illuminating                                    Int64
+health_topic_illuminating                                        Int64
+immigration_topic_illuminating                                   Int64
+lgbtq_issues_topic_illuminating                                  Int64
+military_topic_illuminating                                      Int64
+race_and_ethnicity_topic_illuminating                            Int64
+safety_topic_illuminating                                        Int64
+social_and_cultural_topic_illuminating                           Int64
+technology_and_privacy_topic_illuminating                        Int64
+womens_issue_topic_illuminating                                  Int64
+incivility_illuminating                                          Int64
+freefair_illuminating                                            Int64
+fraud_illuminating                                               Int64
+
+======================================================================
+MISSING VALUE REPORT
+======================================================================
+Column                                         Missing Count Missing %
+----------------------------------------------------------------------
+page_id                                                    0     0.00%
+ad_id                                                      0     0.00%
+ad_creation_time                                           0     0.00%
+bylines                                                1,009     0.41%
+currency                                                   0     0.00%
+delivery_by_region                                         0     0.00%
+demographic_distribution                                   0     0.00%
+estimated_audience_size                                    0     0.00%
+estimated_impressions                                      0     0.00%
+estimated_spend                                            0     0.00%
+publisher_platforms                                        0     0.00%
+illuminating_scored_message                                0     0.00%
+illuminating_mentions                                      0     0.00%
+scam_illuminating                                          0     0.00%
+election_integrity_Truth_illuminating                      0     0.00%
+advocacy_msg_type_illuminating                             0     0.00%
+issue_msg_type_illuminating                                0     0.00%
+attack_msg_type_illuminating                               0     0.00%
+image_msg_type_illuminating                                0     0.00%
+cta_msg_type_illuminating                                  0     0.00%
+engagement_cta_subtype_illuminating                        0     0.00%
+fundraising_cta_subtype_illuminating                       0     0.00%
+voting_cta_subtype_illuminating                            0     0.00%
+covid_topic_illuminating                                   0     0.00%
+economy_topic_illuminating                                 0     0.00%
+education_topic_illuminating                               0     0.00%
+environment_topic_illuminating                             0     0.00%
+foreign_policy_topic_illuminating                          0     0.00%
+governance_topic_illuminating                              0     0.00%
+health_topic_illuminating                                  0     0.00%
+immigration_topic_illuminating                             0     0.00%
+lgbtq_issues_topic_illuminating                            0     0.00%
+military_topic_illuminating                                0     0.00%
+race_and_ethnicity_topic_illuminating                      0     0.00%
+safety_topic_illuminating                                  0     0.00%
+social_and_cultural_topic_illuminating                     0     0.00%
+technology_and_privacy_topic_illuminating                  0     0.00%
+womens_issue_topic_illuminating                            0     0.00%
+incivility_illuminating                                    0     0.00%
+freefair_illuminating                                      0     0.00%
+fraud_illuminating                                         0     0.00%
+
+=======================================================================================================================================
+NUMERIC COLUMN STATISTICS
+=======================================================================================================================================
+Column                                                Count            Mean           Min           Max         Std Dev        Median
+---------------------------------------------------------------------------------------------------------------------------------------
+estimated_audience_size                             246,745    556,462.8560          0.00  1,000,001.00    409,864.7588    300,000.00
+estimated_impressions                               246,745     45,601.5260        499.00  1,000,000.00    136,790.7699      3,499.00
+estimated_spend                                     246,745      1,061.2914         49.00    474,999.00      4,992.5607         49.00
+scam_illuminating                                   246,745          0.0716          0.00          1.00          0.2579          0.00
+election_integrity_Truth_illuminating               246,745          0.0501          0.00          1.00          0.2181          0.00
+advocacy_msg_type_illuminating                      246,745          0.5486          0.00          1.00          0.4976          1.00
+issue_msg_type_illuminating                         246,745          0.3816          0.00          1.00          0.4858          0.00
+attack_msg_type_illuminating                        246,745          0.2719          0.00          1.00          0.4449          0.00
+image_msg_type_illuminating                         246,745          0.2227          0.00          1.00          0.4161          0.00
+cta_msg_type_illuminating                           246,745          0.5728          0.00          1.00          0.4947          1.00
+engagement_cta_subtype_illuminating                 246,745          0.1249          0.00          1.00          0.3306          0.00
+fundraising_cta_subtype_illuminating                246,745          0.2285          0.00          1.00          0.4199          0.00
+voting_cta_subtype_illuminating                     246,745          0.1438          0.00          1.00          0.3509          0.00
+covid_topic_illuminating                            246,745          0.0249          0.00          1.00          0.1557          0.00
+economy_topic_illuminating                          246,745          0.1221          0.00          1.00          0.3274          0.00
+education_topic_illuminating                        246,745          0.0143          0.00          1.00          0.1188          0.00
+environment_topic_illuminating                      246,745          0.0212          0.00          1.00          0.1442          0.00
+foreign_policy_topic_illuminating                   246,745          0.0053          0.00          1.00          0.0724          0.00
+governance_topic_illuminating                       246,745          0.0256          0.00          1.00          0.1581          0.00
+health_topic_illuminating                           246,745          0.1092          0.00          1.00          0.3119          0.00
+immigration_topic_illuminating                      246,745          0.0336          0.00          1.00          0.1801          0.00
+lgbtq_issues_topic_illuminating                     246,745          0.0032          0.00          1.00          0.0567          0.00
+military_topic_illuminating                         246,745          0.0022          0.00          1.00          0.0466          0.00
+race_and_ethnicity_topic_illuminating               246,745          0.0124          0.00          1.00          0.1108          0.00
+safety_topic_illuminating                           246,745          0.0337          0.00          1.00          0.1805          0.00
+social_and_cultural_topic_illuminating              246,745          0.1058          0.00          1.00          0.3076          0.00
+technology_and_privacy_topic_illuminating           246,745          0.0012          0.00          1.00          0.0340          0.00
+womens_issue_topic_illuminating                     246,745          0.0809          0.00          1.00          0.2727          0.00
+incivility_illuminating                             246,745          0.1875          0.00          1.00          0.3903          0.00
+freefair_illuminating                               246,745          0.0064          0.00          1.00          0.0798          0.00
+fraud_illuminating                                  246,745          0.0026          0.00          1.00          0.0513          0.00
+
+====================================================================================================
+POLARS DESCRIBE
+====================================================================================================
+shape: (9, 42)
+┌───────────┬───────────┬───────────┬───────────┬───┬───────────┬───────────┬───────────┬──────────┐
+│ statistic ┆ page_id   ┆ ad_id     ┆ ad_creati ┆ … ┆ womens_is ┆ incivilit ┆ freefair_ ┆ fraud_il │
+│ ---       ┆ ---       ┆ ---       ┆ on_time   ┆   ┆ sue_topic ┆ y_illumin ┆ illuminat ┆ luminati │
+│ str       ┆ str       ┆ str       ┆ ---       ┆   ┆ _illumina ┆ ating     ┆ ing       ┆ ng       │
+│           ┆           ┆           ┆ str       ┆   ┆ tin…      ┆ ---       ┆ ---       ┆ ---      │
+│           ┆           ┆           ┆           ┆   ┆ ---       ┆ f64       ┆ f64       ┆ f64      │
+│           ┆           ┆           ┆           ┆   ┆ f64       ┆           ┆           ┆          │
+╞═══════════╪═══════════╪═══════════╪═══════════╪═══╪═══════════╪═══════════╪═══════════╪══════════╡
+│ count     ┆ 246745    ┆ 246745    ┆ 246745    ┆ … ┆ 246745.0  ┆ 246745.0  ┆ 246745.0  ┆ 246745.0 │
+│ null_coun ┆ 0         ┆ 0         ┆ 0         ┆ … ┆ 0.0       ┆ 0.0       ┆ 0.0       ┆ 0.0      │
+│ t         ┆           ┆           ┆           ┆   ┆           ┆           ┆           ┆          │
+│ mean      ┆ null      ┆ null      ┆ null      ┆ … ┆ 0.080909  ┆ 0.187526  ┆ 0.006416  ┆ 0.002638 │
+│ std       ┆ null      ┆ null      ┆ null      ┆ … ┆ 0.272697  ┆ 0.390334  ┆ 0.07984   ┆ 0.051297 │
+│ min       ┆ 0005687f4 ┆ 0000a88a6 ┆ 2021-07-0 ┆ … ┆ 0.0       ┆ 0.0       ┆ 0.0       ┆ 0.0      │
+│           ┆ ac876c135 ┆ 4484883df ┆ 6         ┆   ┆           ┆           ┆           ┆          │
+│           ┆ dda2bd5aa ┆ 6ca1fabd3 ┆           ┆   ┆           ┆           ┆           ┆          │
+│           ┆ 609…      ┆ 57e…      ┆           ┆   ┆           ┆           ┆           ┆          │
+│ 25%       ┆ null      ┆ null      ┆ null      ┆ … ┆ 0.0       ┆ 0.0       ┆ 0.0       ┆ 0.0      │
+│ 50%       ┆ null      ┆ null      ┆ null      ┆ … ┆ 0.0       ┆ 0.0       ┆ 0.0       ┆ 0.0      │
+│ 75%       ┆ null      ┆ null      ┆ null      ┆ … ┆ 0.0       ┆ 0.0       ┆ 0.0       ┆ 0.0      │
+│ max       ┆ fffd95455 ┆ fffffab68 ┆ 2024-11-0 ┆ … ┆ 1.0       ┆ 1.0       ┆ 1.0       ┆ 1.0      │
+│           ┆ 53ab18ab5 ┆ 64bde31aa ┆ 5         ┆   ┆           ┆           ┆           ┆          │
+│           ┆ 6d93b9029 ┆ 57a40152b ┆           ┆   ┆           ┆           ┆           ┆          │
+│           ┆ 630…      ┆ 4a0…      ┆           ┆   ┆           ┆           ┆           ┆          │
+└───────────┴───────────┴───────────┴───────────┴───┴───────────┴───────────┴───────────┴──────────┘
+
+==============================================================================================================
+CATEGORICAL AND DATE COLUMN STATISTICS
+==============================================================================================================
+
+COLUMN: page_id
+--------------------------------------------------------------------------------------------------------------
+Non-null count: 246,745
+Unique values: 4,475
+Mode: 4d66f5853f0365dba032a87704a634f023d15babde973bb7a284ed8cd...
+Mode frequency: 55,503
+Top 5 values:
+  1. 4d66f5853f0365dba032a87704a634f023d15babde973bb7a284ed8cd... — 55,503 (22.49%)
+  2. e3342051b60393770363ffc02946a0f76bc3e4155190d1f05fb0277b3... — 23,988 (9.72%)
+  3. 4ade404186269ec62d2dd7d9e0ed5f93a5f32c057516879d627ea9fbd... — 14,822 (6.01%)
+  4. 330b2f35ded2161e63fbb2b5c5bdae05bff274ff31f990c275d28ce40... — 10,461 (4.24%)
+  5. ec8ac6dc1cddc49972de2c31b62343fe3979729ec437c3b8d6ffa8915... — 9,851 (3.99%)
+
+COLUMN: ad_id
+--------------------------------------------------------------------------------------------------------------
+Non-null count: 246,745
+Unique values: 246,745
+Mode: 0ddb025b8544e2d58e6977ad417e742a52522b3e1fc1c9d9b61c57148...
+Mode frequency: 1
+Top 5 values:
+  1. 0ddb025b8544e2d58e6977ad417e742a52522b3e1fc1c9d9b61c57148... — 1 (0.00%)
+  2. 86229868e6bde3661724fe02da93504bb4fb5da8c2550d7b7cf193c68... — 1 (0.00%)
+  3. 07b5aefc27e872e971f793e49aac38496fa62e484f3928e2b6a2b6e3e... — 1 (0.00%)
+  4. c62978153c04116d88ead49379916855f2cb58bf788631f26f3f1fcb2... — 1 (0.00%)
+  5. 785e91ef18a5794565af03a6df4e7077fe1d915bfb34025019f3d42f4... — 1 (0.00%)
+
+COLUMN: ad_creation_time
+--------------------------------------------------------------------------------------------------------------
+Non-null count: 246,745
+Unique values: 547
+Mode: 2024-10-27
+Mode frequency: 8,619
+Top 5 values:
+  1. 2024-10-27 — 8,619 (3.49%)
+  2. 2024-10-28 — 7,356 (2.98%)
+  3. 2024-10-26 — 6,414 (2.60%)
+  4. 2024-10-23 — 5,021 (2.03%)
+  5. 2024-10-25 — 4,769 (1.93%)
+
+COLUMN: bylines
+--------------------------------------------------------------------------------------------------------------
+Non-null count: 245,736
+Unique values: 3,786
+Mode: HARRIS FOR PRESIDENT
+Mode frequency: 49,788
+Top 5 values:
+  1. HARRIS FOR PRESIDENT — 49,788 (20.26%)
+  2. HARRIS VICTORY FUND — 32,612 (13.27%)
+  3. BIDEN VICTORY FUND — 15,539 (6.32%)
+  4. DONALD J. TRUMP FOR PRESIDENT 2024, INC. — 15,112 (6.15%)
+  5. Trump National Committee JFC — 7,279 (2.96%)
+
+COLUMN: currency
+--------------------------------------------------------------------------------------------------------------
+Non-null count: 246,745
+Unique values: 18
+Mode: USD
+Mode frequency: 246,599
+Top 5 values:
+  1. USD — 246,599 (99.94%)
+  2. INR — 63 (0.03%)
+  3. GBP — 17 (0.01%)
+  4. EUR — 11 (0.00%)
+  5. PKR — 8 (0.00%)
+
+COLUMN: delivery_by_region
+--------------------------------------------------------------------------------------------------------------
+Non-null count: 246,745
+Unique values: 141,122
+Mode: {}
+Mode frequency: 30,989
+Top 5 values:
+  1. {} — 30,989 (12.56%)
+  2. {'Georgia': {'spend': 49, 'impressions': 499}} — 2,307 (0.93%)
+  3. {'Arizona': {'spend': 49, 'impressions': 499}} — 2,020 (0.82%)
+  4. {'Pennsylvania': {'spend': 49, 'impressions': 499}} — 1,912 (0.77%)
+  5. {'Nevada': {'spend': 49, 'impressions': 499}} — 1,870 (0.76%)
+
+COLUMN: demographic_distribution
+--------------------------------------------------------------------------------------------------------------
+Non-null count: 246,745
+Unique values: 215,622
+Mode: {}
+Mode frequency: 30,989
+Top 5 values:
+  1. {} — 30,989 (12.56%)
+  2. {'female_65+': {'spend': 49, 'impressions': 499}} — 44 (0.02%)
+  3. {'male_65+': {'spend': 49, 'impressions': 499}} — 24 (0.01%)
+  4. {'female_65+': {'spend': 49, 'impressions': 1499}} — 13 (0.01%)
+  5. {'female_65+': {'spend': 49, 'impressions': 2499}} — 12 (0.00%)
+
+COLUMN: publisher_platforms
+--------------------------------------------------------------------------------------------------------------
+Non-null count: 246,745
+Unique values: 9
+Mode: ['facebook', 'instagram']
+Mode frequency: 214,434
+Top 5 values:
+  1. ['facebook', 'instagram'] — 214,434 (86.91%)
+  2. ['facebook'] — 23,259 (9.43%)
+  3. ['instagram'] — 8,395 (3.40%)
+  4. ['facebook', 'instagram', 'audience_network', 'messenger'] — 459 (0.19%)
+  5. ['facebook', 'instagram', 'audience_network'] — 79 (0.03%)
+
+COLUMN: illuminating_scored_message
+--------------------------------------------------------------------------------------------------------------
+Non-null count: 246,745
+Unique values: 26,338
+Mode: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7...
+Mode frequency: 5,972
+Top 5 values:
+  1. e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7... — 5,972 (2.42%)
+  2. 82459467ad44f717f2089911f5210cce1ff025dc0cee03bdb2e60da82... — 1,887 (0.76%)
+  3. 3b1d236346df93fd259a23d523f6deeed9b9939158b6f34b11854ea0f... — 1,352 (0.55%)
+  4. 7e119dac6ca701d8070d0ca8c5b480f016523cb1b78748ee27d69e71c... — 1,341 (0.54%)
+  5. 8e1144f0b13549c2652e19f6dd1ae523956a19671c5e4383a31f09d93... — 1,172 (0.47%)
+
+COLUMN: illuminating_mentions
+--------------------------------------------------------------------------------------------------------------
+Non-null count: 246,745
+Unique values: 278
+Mode: []
+Mode frequency: 73,205
+Top 5 values:
+  1. [] — 73,205 (29.67%)
+  2. ['Donald Trump'] — 53,182 (21.55%)
+  3. ['Kamala Harris'] — 31,019 (12.57%)
+  4. ['President Trump'] — 14,580 (5.91%)
+  5. ['Joe Biden'] — 14,059 (5.70%)
+
+====================================================================================================
+POLARS GROUPED ANALYSIS BY PAGE_ID
+====================================================================================================
+shape: (10, 20)
+┌───────────┬───────────┬───────────┬───────────┬───┬───────────┬───────────┬───────────┬──────────┐
+│ page_id   ┆ row_count ┆ estimated ┆ estimated ┆ … ┆ estimated ┆ estimated ┆ estimated ┆ estimate │
+│ ---       ┆ ---       ┆ _audience ┆ _audience ┆   ┆ _spend_mi ┆ _spend_ma ┆ _spend_st ┆ d_spend_ │
+│ str       ┆ u32       ┆ _size_cou ┆ _size_mea ┆   ┆ n         ┆ x         ┆ d         ┆ median   │
+│           ┆           ┆ nt        ┆ n         ┆   ┆ ---       ┆ ---       ┆ ---       ┆ ---      │
+│           ┆           ┆ ---       ┆ ---       ┆   ┆ i64       ┆ i64       ┆ f64       ┆ f64      │
+│           ┆           ┆ u32       ┆ f64       ┆   ┆           ┆           ┆           ┆          │
+╞═══════════╪═══════════╪═══════════╪═══════════╪═══╪═══════════╪═══════════╪═══════════╪══════════╡
+│ 0005687f4 ┆ 2         ┆ 2         ┆ 5250.0    ┆ … ┆ 49        ┆ 49        ┆ 0.0       ┆ 49.0     │
+│ ac876c135 ┆           ┆           ┆           ┆   ┆           ┆           ┆           ┆          │
+│ dda2bd5aa ┆           ┆           ┆           ┆   ┆           ┆           ┆           ┆          │
+│ 609…      ┆           ┆           ┆           ┆   ┆           ┆           ┆           ┆          │
+│ 00157b7e2 ┆ 3         ┆ 3         ┆ 12683.333 ┆ … ┆ 249       ┆ 2749      ┆ 1258.3057 ┆ 1249.0   │
+│ 8846e0510 ┆           ┆           ┆ 333       ┆   ┆           ┆           ┆ 39        ┆          │
+│ e1d265c5e ┆           ┆           ┆           ┆   ┆           ┆           ┆           ┆          │
+│ a72…      ┆           ┆           ┆           ┆   ┆           ┆           ┆           ┆          │
+│ 002415d34 ┆ 1         ┆ 1         ┆ 300000.0  ┆ … ┆ 49        ┆ 49        ┆ null      ┆ 49.0     │
+│ a27e69e6b ┆           ┆           ┆           ┆   ┆           ┆           ┆           ┆          │
+│ 9c0a2d1b0 ┆           ┆           ┆           ┆   ┆           ┆           ┆           ┆          │
+│ b8b…      ┆           ┆           ┆           ┆   ┆           ┆           ┆           ┆          │
+│ 002a7fde0 ┆ 4         ┆ 4         ┆ 1.000001e ┆ … ┆ 49        ┆ 49        ┆ 0.0       ┆ 49.0     │
+│ f1b2e9116 ┆           ┆           ┆ 6         ┆   ┆           ┆           ┆           ┆          │
+│ e80f42d7d ┆           ┆           ┆           ┆   ┆           ┆           ┆           ┆          │
+│ fea…      ┆           ┆           ┆           ┆   ┆           ┆           ┆           ┆          │
+│ 003acdd6c ┆ 1         ┆ 1         ┆ 1.000001e ┆ … ┆ 49        ┆ 49        ┆ null      ┆ 49.0     │
+│ 226d5c2fa ┆           ┆           ┆ 6         ┆   ┆           ┆           ┆           ┆          │
+│ 272e55ad9 ┆           ┆           ┆           ┆   ┆           ┆           ┆           ┆          │
+│ a8d…      ┆           ┆           ┆           ┆   ┆           ┆           ┆           ┆          │
+│ 0052e5976 ┆ 1         ┆ 1         ┆ 75000.0   ┆ … ┆ 1249      ┆ 1249      ┆ null      ┆ 1249.0   │
+│ 46ada728a ┆           ┆           ┆           ┆   ┆           ┆           ┆           ┆          │
+│ 3321aa7a4 ┆           ┆           ┆           ┆   ┆           ┆           ┆           ┆          │
+│ dc9…      ┆           ┆           ┆           ┆   ┆           ┆           ┆           ┆          │
+│ 0054486b6 ┆ 167       ┆ 167       ┆ 119017.14 ┆ … ┆ 49        ┆ 112499    ┆ 9558.0081 ┆ 449.0    │
+│ 689b350b5 ┆           ┆           ┆ 9701      ┆   ┆           ┆           ┆ 79        ┆          │
+│ d20a4d78a ┆           ┆           ┆           ┆   ┆           ┆           ┆           ┆          │
+│ c0f…      ┆           ┆           ┆           ┆   ┆           ┆           ┆           ┆          │
+│ 0055a3ffa ┆ 8         ┆ 8         ┆ 1.000001e ┆ … ┆ 49        ┆ 49        ┆ 0.0       ┆ 49.0     │
+│ 4db31eb7a ┆           ┆           ┆ 6         ┆   ┆           ┆           ┆           ┆          │
+│ b3042dc06 ┆           ┆           ┆           ┆   ┆           ┆           ┆           ┆          │
+│ 03a…      ┆           ┆           ┆           ┆   ┆           ┆           ┆           ┆          │
+│ 005b23194 ┆ 28        ┆ 28        ┆ 39642.857 ┆ … ┆ 49        ┆ 549       ┆ 113.85500 ┆ 149.0    │
+│ 6e0436490 ┆           ┆           ┆ 143       ┆   ┆           ┆           ┆ 9         ┆          │
+│ 095ce46ad ┆           ┆           ┆           ┆   ┆           ┆           ┆           ┆          │
+│ b40…      ┆           ┆           ┆           ┆   ┆           ┆           ┆           ┆          │
+│ 005b7dcff ┆ 1         ┆ 1         ┆ 550.0     ┆ … ┆ 49        ┆ 49        ┆ null      ┆ 49.0     │
+│ 35441472b ┆           ┆           ┆           ┆   ┆           ┆           ┆           ┆          │
+│ bdf923c42 ┆           ┆           ┆           ┆   ┆           ┆           ┆           ┆          │
+│ 393…      ┆           ┆           ┆           ┆   ┆           ┆           ┆           ┆          │
+└───────────┴───────────┴───────────┴───────────┴───┴───────────┴───────────┴───────────┴──────────┘
+
+====================================================================================================
+POLARS GROUPED ANALYSIS BY PAGE_ID + AD_ID
+====================================================================================================
+shape: (10, 21)
+┌───────────┬───────────┬───────────┬───────────┬───┬───────────┬───────────┬───────────┬──────────┐
+│ page_id   ┆ ad_id     ┆ row_count ┆ estimated ┆ … ┆ estimated ┆ estimated ┆ estimated ┆ estimate │
+│ ---       ┆ ---       ┆ ---       ┆ _audience ┆   ┆ _spend_mi ┆ _spend_ma ┆ _spend_st ┆ d_spend_ │
+│ str       ┆ str       ┆ u32       ┆ _size_cou ┆   ┆ n         ┆ x         ┆ d         ┆ median   │
+│           ┆           ┆           ┆ nt        ┆   ┆ ---       ┆ ---       ┆ ---       ┆ ---      │
+│           ┆           ┆           ┆ ---       ┆   ┆ i64       ┆ i64       ┆ f64       ┆ f64      │
+│           ┆           ┆           ┆ u32       ┆   ┆           ┆           ┆           ┆          │
+╞═══════════╪═══════════╪═══════════╪═══════════╪═══╪═══════════╪═══════════╪═══════════╪══════════╡
+│ 0005687f4 ┆ 10913e6ca ┆ 1         ┆ 1         ┆ … ┆ 49        ┆ 49        ┆ null      ┆ 49.0     │
+│ ac876c135 ┆ e50d9aafe ┆           ┆           ┆   ┆           ┆           ┆           ┆          │
+│ dda2bd5aa ┆ 81b85c23f ┆           ┆           ┆   ┆           ┆           ┆           ┆          │
+│ 609…      ┆ 4ad…      ┆           ┆           ┆   ┆           ┆           ┆           ┆          │
+│ 0005687f4 ┆ 5ae5f50e0 ┆ 1         ┆ 1         ┆ … ┆ 49        ┆ 49        ┆ null      ┆ 49.0     │
+│ ac876c135 ┆ 59148a06b ┆           ┆           ┆   ┆           ┆           ┆           ┆          │
+│ dda2bd5aa ┆ 00ef78563 ┆           ┆           ┆   ┆           ┆           ┆           ┆          │
+│ 609…      ┆ 634…      ┆           ┆           ┆   ┆           ┆           ┆           ┆          │
+│ 00157b7e2 ┆ 715ec14d2 ┆ 1         ┆ 1         ┆ … ┆ 1249      ┆ 1249      ┆ null      ┆ 1249.0   │
+│ 8846e0510 ┆ 54bf4e5b5 ┆           ┆           ┆   ┆           ┆           ┆           ┆          │
+│ e1d265c5e ┆ 76e257e96 ┆           ┆           ┆   ┆           ┆           ┆           ┆          │
+│ a72…      ┆ f77…      ┆           ┆           ┆   ┆           ┆           ┆           ┆          │
+│ 00157b7e2 ┆ 779bcd201 ┆ 1         ┆ 1         ┆ … ┆ 2749      ┆ 2749      ┆ null      ┆ 2749.0   │
+│ 8846e0510 ┆ 4d6a7b8c5 ┆           ┆           ┆   ┆           ┆           ┆           ┆          │
+│ e1d265c5e ┆ 22dbf2836 ┆           ┆           ┆   ┆           ┆           ┆           ┆          │
+│ a72…      ┆ 0ec…      ┆           ┆           ┆   ┆           ┆           ┆           ┆          │
+│ 00157b7e2 ┆ a4a6f2f0a ┆ 1         ┆ 1         ┆ … ┆ 249       ┆ 249       ┆ null      ┆ 249.0    │
+│ 8846e0510 ┆ ccaf13372 ┆           ┆           ┆   ┆           ┆           ┆           ┆          │
+│ e1d265c5e ┆ d8e9790de ┆           ┆           ┆   ┆           ┆           ┆           ┆          │
+│ a72…      ┆ 387…      ┆           ┆           ┆   ┆           ┆           ┆           ┆          │
+│ 002415d34 ┆ 6001578ee ┆ 1         ┆ 1         ┆ … ┆ 49        ┆ 49        ┆ null      ┆ 49.0     │
+│ a27e69e6b ┆ cf31f7e5c ┆           ┆           ┆   ┆           ┆           ┆           ┆          │
+│ 9c0a2d1b0 ┆ a33146ece ┆           ┆           ┆   ┆           ┆           ┆           ┆          │
+│ b8b…      ┆ de0…      ┆           ┆           ┆   ┆           ┆           ┆           ┆          │
+│ 002a7fde0 ┆ 3d764bf87 ┆ 1         ┆ 1         ┆ … ┆ 49        ┆ 49        ┆ null      ┆ 49.0     │
+│ f1b2e9116 ┆ 2d579b5c1 ┆           ┆           ┆   ┆           ┆           ┆           ┆          │
+│ e80f42d7d ┆ c0de43fe2 ┆           ┆           ┆   ┆           ┆           ┆           ┆          │
+│ fea…      ┆ 182…      ┆           ┆           ┆   ┆           ┆           ┆           ┆          │
+│ 002a7fde0 ┆ 4221e13fe ┆ 1         ┆ 1         ┆ … ┆ 49        ┆ 49        ┆ null      ┆ 49.0     │
+│ f1b2e9116 ┆ 9aefa1aa8 ┆           ┆           ┆   ┆           ┆           ┆           ┆          │
+│ e80f42d7d ┆ 6e900a73e ┆           ┆           ┆   ┆           ┆           ┆           ┆          │
+│ fea…      ┆ 510…      ┆           ┆           ┆   ┆           ┆           ┆           ┆          │
+│ 002a7fde0 ┆ 4425da130 ┆ 1         ┆ 1         ┆ … ┆ 49        ┆ 49        ┆ null      ┆ 49.0     │
+│ f1b2e9116 ┆ 3236fe461 ┆           ┆           ┆   ┆           ┆           ┆           ┆          │
+│ e80f42d7d ┆ d2791e693 ┆           ┆           ┆   ┆           ┆           ┆           ┆          │
+│ fea…      ┆ 4fc…      ┆           ┆           ┆   ┆           ┆           ┆           ┆          │
+│ 002a7fde0 ┆ cfad8965e ┆ 1         ┆ 1         ┆ … ┆ 49        ┆ 49        ┆ null      ┆ 49.0     │
+│ f1b2e9116 ┆ 38dfe53ce ┆           ┆           ┆   ┆           ┆           ┆           ┆          │
+│ e80f42d7d ┆ 0d2587ad9 ┆           ┆           ┆   ┆           ┆           ┆           ┆          │
+│ fea…      ┆ 8b2…      ┆           ┆           ┆   ┆           ┆           ┆           ┆          │
+└───────────┴───────────┴───────────┴───────────┴───┴───────────┴───────────┴───────────┴──────────┘
+
+Grouped files created:
+Output/polars_by_page_id.csv
+Output/polars_by_page_id_ad_id.csv

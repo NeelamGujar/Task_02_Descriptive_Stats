@@ -1,0 +1,303 @@
+======================================================================
+PURE PYTHON DATASET OVERVIEW
+======================================================================
+Dataset: task02_facebook_ads.csv
+Total rows: 246,745
+Total columns: 41
+
+======================================================================
+MISSING VALUE REPORT
+======================================================================
+Column                                         Missing Count Missing %
+----------------------------------------------------------------------
+page_id                                                    0     0.00%
+ad_id                                                      0     0.00%
+ad_creation_time                                           0     0.00%
+bylines                                                1,009     0.41%
+currency                                                   0     0.00%
+delivery_by_region                                         0     0.00%
+demographic_distribution                                   0     0.00%
+estimated_audience_size                                    0     0.00%
+estimated_impressions                                      0     0.00%
+estimated_spend                                            0     0.00%
+publisher_platforms                                        0     0.00%
+illuminating_scored_message                                0     0.00%
+illuminating_mentions                                      0     0.00%
+scam_illuminating                                          0     0.00%
+election_integrity_Truth_illuminating                      0     0.00%
+advocacy_msg_type_illuminating                             0     0.00%
+issue_msg_type_illuminating                                0     0.00%
+attack_msg_type_illuminating                               0     0.00%
+image_msg_type_illuminating                                0     0.00%
+cta_msg_type_illuminating                                  0     0.00%
+engagement_cta_subtype_illuminating                        0     0.00%
+fundraising_cta_subtype_illuminating                       0     0.00%
+voting_cta_subtype_illuminating                            0     0.00%
+covid_topic_illuminating                                   0     0.00%
+economy_topic_illuminating                                 0     0.00%
+education_topic_illuminating                               0     0.00%
+environment_topic_illuminating                             0     0.00%
+foreign_policy_topic_illuminating                          0     0.00%
+governance_topic_illuminating                              0     0.00%
+health_topic_illuminating                                  0     0.00%
+immigration_topic_illuminating                             0     0.00%
+lgbtq_issues_topic_illuminating                            0     0.00%
+military_topic_illuminating                                0     0.00%
+race_and_ethnicity_topic_illuminating                      0     0.00%
+safety_topic_illuminating                                  0     0.00%
+social_and_cultural_topic_illuminating                     0     0.00%
+technology_and_privacy_topic_illuminating                  0     0.00%
+womens_issue_topic_illuminating                            0     0.00%
+incivility_illuminating                                    0     0.00%
+freefair_illuminating                                      0     0.00%
+fraud_illuminating                                         0     0.00%
+
+======================================================================
+INFERRED DATA TYPES
+======================================================================
+Column                                                   Inferred Type
+----------------------------------------------------------------------
+page_id                                                    categorical
+ad_id                                                      categorical
+ad_creation_time                                                  date
+bylines                                                    categorical
+currency                                                   categorical
+delivery_by_region                                         categorical
+demographic_distribution                                   categorical
+estimated_audience_size                                        numeric
+estimated_impressions                                          numeric
+estimated_spend                                                numeric
+publisher_platforms                                        categorical
+illuminating_scored_message                                categorical
+illuminating_mentions                                      categorical
+scam_illuminating                                              numeric
+election_integrity_Truth_illuminating                          numeric
+advocacy_msg_type_illuminating                                 numeric
+issue_msg_type_illuminating                                    numeric
+attack_msg_type_illuminating                                   numeric
+image_msg_type_illuminating                                    numeric
+cta_msg_type_illuminating                                      numeric
+engagement_cta_subtype_illuminating                            numeric
+fundraising_cta_subtype_illuminating                           numeric
+voting_cta_subtype_illuminating                                numeric
+covid_topic_illuminating                                       numeric
+economy_topic_illuminating                                     numeric
+education_topic_illuminating                                   numeric
+environment_topic_illuminating                                 numeric
+foreign_policy_topic_illuminating                              numeric
+governance_topic_illuminating                                  numeric
+health_topic_illuminating                                      numeric
+immigration_topic_illuminating                                 numeric
+lgbtq_issues_topic_illuminating                                numeric
+military_topic_illuminating                                    numeric
+race_and_ethnicity_topic_illuminating                          numeric
+safety_topic_illuminating                                      numeric
+social_and_cultural_topic_illuminating                         numeric
+technology_and_privacy_topic_illuminating                      numeric
+womens_issue_topic_illuminating                                numeric
+incivility_illuminating                                        numeric
+freefair_illuminating                                          numeric
+fraud_illuminating                                             numeric
+
+=======================================================================================================================================
+NUMERIC COLUMN STATISTICS
+=======================================================================================================================================
+Column                                                Count            Mean           Min           Max         Std Dev        Median
+---------------------------------------------------------------------------------------------------------------------------------------
+estimated_audience_size                             246,745    556,462.8560          0.00  1,000,001.00    409,864.7588    300,000.00
+estimated_impressions                               246,745     45,601.5260        499.00  1,000,000.00    136,790.7699      3,499.00
+estimated_spend                                     246,745      1,061.2914         49.00    474,999.00      4,992.5607         49.00
+scam_illuminating                                   246,745          0.0716          0.00          1.00          0.2579          0.00
+election_integrity_Truth_illuminating               246,745          0.0501          0.00          1.00          0.2181          0.00
+advocacy_msg_type_illuminating                      246,745          0.5486          0.00          1.00          0.4976          1.00
+issue_msg_type_illuminating                         246,745          0.3816          0.00          1.00          0.4858          0.00
+attack_msg_type_illuminating                        246,745          0.2719          0.00          1.00          0.4449          0.00
+image_msg_type_illuminating                         246,745          0.2227          0.00          1.00          0.4161          0.00
+cta_msg_type_illuminating                           246,745          0.5728          0.00          1.00          0.4947          1.00
+engagement_cta_subtype_illuminating                 246,745          0.1249          0.00          1.00          0.3306          0.00
+fundraising_cta_subtype_illuminating                246,745          0.2285          0.00          1.00          0.4199          0.00
+voting_cta_subtype_illuminating                     246,745          0.1438          0.00          1.00          0.3509          0.00
+covid_topic_illuminating                            246,745          0.0249          0.00          1.00          0.1557          0.00
+economy_topic_illuminating                          246,745          0.1221          0.00          1.00          0.3274          0.00
+education_topic_illuminating                        246,745          0.0143          0.00          1.00          0.1188          0.00
+environment_topic_illuminating                      246,745          0.0212          0.00          1.00          0.1442          0.00
+foreign_policy_topic_illuminating                   246,745          0.0053          0.00          1.00          0.0724          0.00
+governance_topic_illuminating                       246,745          0.0256          0.00          1.00          0.1581          0.00
+health_topic_illuminating                           246,745          0.1092          0.00          1.00          0.3119          0.00
+immigration_topic_illuminating                      246,745          0.0336          0.00          1.00          0.1801          0.00
+lgbtq_issues_topic_illuminating                     246,745          0.0032          0.00          1.00          0.0567          0.00
+military_topic_illuminating                         246,745          0.0022          0.00          1.00          0.0466          0.00
+race_and_ethnicity_topic_illuminating               246,745          0.0124          0.00          1.00          0.1108          0.00
+safety_topic_illuminating                           246,745          0.0337          0.00          1.00          0.1805          0.00
+social_and_cultural_topic_illuminating              246,745          0.1058          0.00          1.00          0.3076          0.00
+technology_and_privacy_topic_illuminating           246,745          0.0012          0.00          1.00          0.0340          0.00
+womens_issue_topic_illuminating                     246,745          0.0809          0.00          1.00          0.2727          0.00
+incivility_illuminating                             246,745          0.1875          0.00          1.00          0.3903          0.00
+freefair_illuminating                               246,745          0.0064          0.00          1.00          0.0798          0.00
+fraud_illuminating                                  246,745          0.0026          0.00          1.00          0.0513          0.00
+
+==============================================================================================================
+CATEGORICAL AND DATE COLUMN STATISTICS
+==============================================================================================================
+
+COLUMN: page_id
+--------------------------------------------------------------------------------------------------------------
+Non-null count: 246,745
+Unique values: 4,475
+Mode: 4d66f5853f0365dba032a87704a634f023d15babde973bb7a284ed8cd...
+Mode frequency: 55,503
+Top 5 values:
+  1. 4d66f5853f0365dba032a87704a634f023d15babde973bb7a284ed8cd... — 55,503 (22.49%)
+  2. e3342051b60393770363ffc02946a0f76bc3e4155190d1f05fb0277b3... — 23,988 (9.72%)
+  3. 4ade404186269ec62d2dd7d9e0ed5f93a5f32c057516879d627ea9fbd... — 14,822 (6.01%)
+  4. 330b2f35ded2161e63fbb2b5c5bdae05bff274ff31f990c275d28ce40... — 10,461 (4.24%)
+  5. ec8ac6dc1cddc49972de2c31b62343fe3979729ec437c3b8d6ffa8915... — 9,851 (3.99%)
+
+COLUMN: ad_id
+--------------------------------------------------------------------------------------------------------------
+Non-null count: 246,745
+Unique values: 246,745
+Mode: 0ddb025b8544e2d58e6977ad417e742a52522b3e1fc1c9d9b61c57148...
+Mode frequency: 1
+Top 5 values:
+  1. 0ddb025b8544e2d58e6977ad417e742a52522b3e1fc1c9d9b61c57148... — 1 (0.00%)
+  2. 86229868e6bde3661724fe02da93504bb4fb5da8c2550d7b7cf193c68... — 1 (0.00%)
+  3. 07b5aefc27e872e971f793e49aac38496fa62e484f3928e2b6a2b6e3e... — 1 (0.00%)
+  4. c62978153c04116d88ead49379916855f2cb58bf788631f26f3f1fcb2... — 1 (0.00%)
+  5. 785e91ef18a5794565af03a6df4e7077fe1d915bfb34025019f3d42f4... — 1 (0.00%)
+
+COLUMN: ad_creation_time
+--------------------------------------------------------------------------------------------------------------
+Non-null count: 246,745
+Unique values: 547
+Mode: 2024-10-27
+Mode frequency: 8,619
+Top 5 values:
+  1. 2024-10-27 — 8,619 (3.49%)
+  2. 2024-10-28 — 7,356 (2.98%)
+  3. 2024-10-26 — 6,414 (2.60%)
+  4. 2024-10-23 — 5,021 (2.03%)
+  5. 2024-10-25 — 4,769 (1.93%)
+
+COLUMN: bylines
+--------------------------------------------------------------------------------------------------------------
+Non-null count: 245,736
+Unique values: 3,786
+Mode: HARRIS FOR PRESIDENT
+Mode frequency: 49,788
+Top 5 values:
+  1. HARRIS FOR PRESIDENT — 49,788 (20.26%)
+  2. HARRIS VICTORY FUND — 32,612 (13.27%)
+  3. BIDEN VICTORY FUND — 15,539 (6.32%)
+  4. DONALD J. TRUMP FOR PRESIDENT 2024, INC. — 15,112 (6.15%)
+  5. Trump National Committee JFC — 7,279 (2.96%)
+
+COLUMN: currency
+--------------------------------------------------------------------------------------------------------------
+Non-null count: 246,745
+Unique values: 18
+Mode: USD
+Mode frequency: 246,599
+Top 5 values:
+  1. USD — 246,599 (99.94%)
+  2. INR — 63 (0.03%)
+  3. GBP — 17 (0.01%)
+  4. EUR — 11 (0.00%)
+  5. PKR — 8 (0.00%)
+
+COLUMN: delivery_by_region
+--------------------------------------------------------------------------------------------------------------
+Non-null count: 246,745
+Unique values: 141,122
+Mode: {}
+Mode frequency: 30,989
+Top 5 values:
+  1. {} — 30,989 (12.56%)
+  2. {'Georgia': {'spend': 49, 'impressions': 499}} — 2,307 (0.93%)
+  3. {'Arizona': {'spend': 49, 'impressions': 499}} — 2,020 (0.82%)
+  4. {'Pennsylvania': {'spend': 49, 'impressions': 499}} — 1,912 (0.77%)
+  5. {'Nevada': {'spend': 49, 'impressions': 499}} — 1,870 (0.76%)
+
+COLUMN: demographic_distribution
+--------------------------------------------------------------------------------------------------------------
+Non-null count: 246,745
+Unique values: 215,622
+Mode: {}
+Mode frequency: 30,989
+Top 5 values:
+  1. {} — 30,989 (12.56%)
+  2. {'female_65+': {'spend': 49, 'impressions': 499}} — 44 (0.02%)
+  3. {'male_65+': {'spend': 49, 'impressions': 499}} — 24 (0.01%)
+  4. {'female_65+': {'spend': 49, 'impressions': 1499}} — 13 (0.01%)
+  5. {'female_65+': {'spend': 49, 'impressions': 2499}} — 12 (0.00%)
+
+COLUMN: publisher_platforms
+--------------------------------------------------------------------------------------------------------------
+Non-null count: 246,745
+Unique values: 9
+Mode: ['facebook', 'instagram']
+Mode frequency: 214,434
+Top 5 values:
+  1. ['facebook', 'instagram'] — 214,434 (86.91%)
+  2. ['facebook'] — 23,259 (9.43%)
+  3. ['instagram'] — 8,395 (3.40%)
+  4. ['facebook', 'instagram', 'audience_network', 'messenger'] — 459 (0.19%)
+  5. ['facebook', 'instagram', 'audience_network'] — 79 (0.03%)
+
+COLUMN: illuminating_scored_message
+--------------------------------------------------------------------------------------------------------------
+Non-null count: 246,745
+Unique values: 26,338
+Mode: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7...
+Mode frequency: 5,972
+Top 5 values:
+  1. e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7... — 5,972 (2.42%)
+  2. 82459467ad44f717f2089911f5210cce1ff025dc0cee03bdb2e60da82... — 1,887 (0.76%)
+  3. 3b1d236346df93fd259a23d523f6deeed9b9939158b6f34b11854ea0f... — 1,352 (0.55%)
+  4. 7e119dac6ca701d8070d0ca8c5b480f016523cb1b78748ee27d69e71c... — 1,341 (0.54%)
+  5. 8e1144f0b13549c2652e19f6dd1ae523956a19671c5e4383a31f09d93... — 1,172 (0.47%)
+
+COLUMN: illuminating_mentions
+--------------------------------------------------------------------------------------------------------------
+Non-null count: 246,745
+Unique values: 278
+Mode: []
+Mode frequency: 73,205
+Top 5 values:
+  1. [] — 73,205 (29.67%)
+  2. ['Donald Trump'] — 53,182 (21.55%)
+  3. ['Kamala Harris'] — 31,019 (12.57%)
+  4. ['President Trump'] — 14,580 (5.91%)
+  5. ['Joe Biden'] — 14,059 (5.70%)
+
+========================================================================================================================
+GROUPED ANALYSIS BY PAGE_ID
+========================================================================================================================
+1. page_id=4d66f5853f0365dba032a87704a634f023d15babde973bb7a284ed8cd2707b2d | Rows: 55,503 | Mean spend: 1,491.73
+2. page_id=e3342051b60393770363ffc02946a0f76bc3e4155190d1f05fb0277b34bf6480 | Rows: 23,988 | Mean spend: 817.47
+3. page_id=4ade404186269ec62d2dd7d9e0ed5f93a5f32c057516879d627ea9fbd628ef9b | Rows: 14,822 | Mean spend: 1,778.98
+4. page_id=330b2f35ded2161e63fbb2b5c5bdae05bff274ff31f990c275d28ce408671ce0 | Rows: 10,461 | Mean spend: 586.50
+5. page_id=ec8ac6dc1cddc49972de2c31b62343fe3979729ec437c3b8d6ffa8915ab1401d | Rows: 9,851 | Mean spend: 1,076.03
+6. page_id=e3ee066f4a12968ba94847059a03c33965ca4eb1ead0f6f01d6f6ae65adb4841 | Rows: 6,581 | Mean spend: 1,160.08
+7. page_id=c5728dbf6f860c0fe9722cb42f5273ec659d701ebf68f3e1d7b63da7958297ee | Rows: 3,625 | Mean spend: 208.09
+8. page_id=19ab0dfc0ac8cd43df84a6ccffad5c3b1972fcfd4453bff95f51301aa5c36940 | Rows: 3,186 | Mean spend: 423.56
+9. page_id=53a74049e9ff3c4276f15cb0dc6d35c93e830c25a5eee6f3d914321922913415 | Rows: 2,814 | Mean spend: 908.86
+10. page_id=8b7ed6251d2f780296c0933fbe3f34ad51046d2d15ecacbc23b05ff65aaf0aff | Rows: 2,766 | Mean spend: 104.28
+
+========================================================================================================================
+GROUPED ANALYSIS BY PAGE_ID + AD_ID
+========================================================================================================================
+1. page_id=4ff23a48b53d988df50ddfebb0e442a984ab8f94e874ef9b9cb34394e0c5d230 | ad_id=0ddb025b8544e2d58e6977ad417e742a52522b3e1fc1c9d9b61c57148f8d72fc | Rows: 1 | Mean spend: 249.00
+2. page_id=4ff23a48b53d988df50ddfebb0e442a984ab8f94e874ef9b9cb34394e0c5d230 | ad_id=86229868e6bde3661724fe02da93504bb4fb5da8c2550d7b7cf193c687e89fa6 | Rows: 1 | Mean spend: 49.00
+3. page_id=4ff23a48b53d988df50ddfebb0e442a984ab8f94e874ef9b9cb34394e0c5d230 | ad_id=07b5aefc27e872e971f793e49aac38496fa62e484f3928e2b6a2b6e3e08cac8d | Rows: 1 | Mean spend: 149.00
+4. page_id=b9eb7e353e596d5fc99568d4ef77d4b11ced3243537cbd0895dde3195b69b6be | ad_id=c62978153c04116d88ead49379916855f2cb58bf788631f26f3f1fcb2962ad48 | Rows: 1 | Mean spend: 49.00
+5. page_id=b9eb7e353e596d5fc99568d4ef77d4b11ced3243537cbd0895dde3195b69b6be | ad_id=785e91ef18a5794565af03a6df4e7077fe1d915bfb34025019f3d42f43fcf9e8 | Rows: 1 | Mean spend: 49.00
+6. page_id=7167146d80bba9d877a246d9682c7eecf3cae7b63337cf8ec01fff2eff27c909 | ad_id=8eef0db915699b38fa798d4d9f5d944b1fed68bb08cce48b287ede96c336db21 | Rows: 1 | Mean spend: 49.00
+7. page_id=7167146d80bba9d877a246d9682c7eecf3cae7b63337cf8ec01fff2eff27c909 | ad_id=21ec16288ef000ef52e90f0366112115f98001fb9ceb64017a9199f4ba2bffa3 | Rows: 1 | Mean spend: 49.00
+8. page_id=8109a1809ae54265da9ab4b69f5e7f6c3c42d013a07f643513875ebc1f73e8d3 | ad_id=cec88e0dc69463eca43511cefe95839e94cbdbff6abcaba18398663ea44b6292 | Rows: 1 | Mean spend: 49.00
+9. page_id=bb8759172b28450769f79e10c63a64ae09b986a7eab109eefb3ddff8c39886ad | ad_id=97ba12169373d6fc48fe898c0e9457fbd391868a704a0ef3fcc1d66aa29d7046 | Rows: 1 | Mean spend: 49.00
+10. page_id=062a73845194a53a226450fa498e9a48ff6683ee1f559058a1ccd4d70707581f | ad_id=3580b1f0707438dd60a9499f4a9c1df1a98f500e37d92aa90382a08746cc6acd | Rows: 1 | Mean spend: 349.00
+
+Grouped files created:
+Output/pure_python_by_page_id.csv
+Output/pure_python_by_page_id_ad_id.csv
